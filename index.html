@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Qualification</h3>
+
+
+<div>
+</div>
+    <script>
+        //Q1
+        var Student = []
+        //Q2
+        var student = [
+
+        ]
+        //Q3
+        var stringarray = ['Ali','rashid','Talha']
+
+        //Q4
+        var numberarray = [ 2 ,4 ,6 ,8 ,10 ,12 ]
+        //Q5
+        var boolenarray = [ true ,false ]
+
+        //Q6
+        var mixedarray  = [ 'wahid',2,'Ali',4,true,5]
+
+        //Q7
+        var Qualification = ['BBA','BA','BSC','MBA','PHD','MSC','B.COM']
+        for( var i = 0 ; i<Qualification.length; i++){
+            document.write( '<br>',"Ans7  ", i+1 ,')' ,    Qualification[i],)
+        }
+
+        //Q8
+        var Stuname = ['Ali ', 'Ahmed ','Arshad']
+        var score = [400 , 430 ,450]
+        var percantage =[]
+          
+      for( var i = 0; i<Stuname.length ; i++){
+if(score[i]*100/500){
+    percantage.push()
+}
+        
+        document.write('<br>',"Ans8)",' Score of ' , Stuname[i] ,' is ' ,score[i] ,' Percentage is ' ,percantage[i]);
+
+      }
+        //Q10
+
+        var Stuscore = [3,7,4,9,1,8,2]
+        document.write("<br>","Ans10) ",  Stuscore)
+
+        var ascending = Stuscore.sort()
+
+       
+        document.write("<br>","Ans10) ", ascending)
+    
+       
+    //Q11
+    var city = ['Karachi','Lahore','Multan','Quetta','Islamabad']
+    document.write('<br>',"Ans 11) ",'City list :', city)
+    var city = city.slice(3)
+    document.write('<br>',"Ans 11) ",' Selected City list :', city)
+   
+    //Q12
+    var word = ['This','is','a','string']
+    word = word.join(" ")
+    document.write("<br>","Ans12) ", word)
+//Q13in
+var company = ['Nokia',
+              'Vivo',
+              'Iphone',
+              'Motorola',
+              'Realme',
+              'Samsung']
+{
+  
+document.write( "<br>","<select>","<option>",company[0],"</option>",
+    "<option>",company[1],"</option>","<option>",company[2],"</option>","<option>",company[3],"</option>","<option>",company[4],"</option>","<option>",company[5],"</option>",'</select>')
+}
+//Q9
+
+var color = ['red','blue','green','pink','yellow','white','brown']
+document.write("<br>"," Orignal array) ", color)
+// var color = ['red','blue','green','pink','yellow','white','brown']
+
+var input = prompt('Enter color you want to add')
+var input1 = prompt('Enter second color you want to add')
+
+color.unshift(input)
+document.write(' <br>','Adding in Start) ', color)
+color.shift()
+
+color.push("black")
+document.write("<br>","Add in last) ", color)
+
+color.unshift(input,input1)
+document.write("<br>",'Add two in Start) ', color)
+
+color.shift()
+document.write("<br>","Delete from Start)  ", color)
+
+color.pop()
+document.write("<br>","Delete from last) ", color)
+
+color.splice(4,0,"non")
+document.write("<br>","Add at index 4 ) ", color)
+
+color.splice(0,4)
+document.write("<br>","Delete from index 6 ) ", color)
+
+
+
+    </script>
+</body>
+</html>
